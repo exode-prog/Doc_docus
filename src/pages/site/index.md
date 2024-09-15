@@ -41,9 +41,9 @@ Figure: Mise a jour des paquets du systeme
 
 Apres la mise a jour des paquets on peut maintenant installer le serveur Apache2 par la commande suivante:
 
-	```
+	
 	apt install apache2
-	```
+	
 
 ![update](./images/inst_apach2.png)
 Figure: Installation du serveur Apache2
@@ -52,9 +52,9 @@ Figure: Installation du serveur Apache2
    
    Apres l'installation du serveur on verifie le paquet par la commande suvante: 
 
-	```
+	
 	apt policy apache2
-	```
+	
 
 ![update](./images/veri_apach2.png)
 Figure: Verification du serveur Apache2
@@ -162,10 +162,10 @@ Figure: Creation du fichir index.html
 
 
 
-	On ajoute le contenu suivant:
+On ajoute le contenu suivant:
 
 	
- <html>
+ 	<html>
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -174,18 +174,18 @@ Figure: Creation du fichir index.html
 	<body>
 	<h2>Bonjour les amis,on a reussi notre hebergement par dossier sous Apache</h2>
 	</body>
-</html>
-<html>
-<head>
+	</html>
+	<html>
+	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hebergement par dossier</title>
-</head>
-<body>
-<h2>Bonjour les amis,on a reussi notre hebergement par dossier sous Apache</h2>
-</body>
-</html>
-	```
+	</head>
+	<body>
+	<h2>Bonjour les amis,on a reussi notre hebergement par dossier sous Apache</h2>
+	</body>
+	</html>
+	
 
 
 **Etape 4:** Test de bon fonctionnement 
