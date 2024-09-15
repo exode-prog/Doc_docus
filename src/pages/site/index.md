@@ -324,7 +324,7 @@ Et on met le contenu suivant:
 
 ```
 
-et on test le site en prenant un navigateur et on met 
+et  maintenant on test le site en prenant un navigateur et on met 
 (http://site-docus.sn) et on accede au site
 
 
