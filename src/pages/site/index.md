@@ -175,16 +175,7 @@ On ajoute le contenu suivant:
 	<h2>Bonjour les amis,on a reussi notre hebergement par dossier sous Apache</h2>
 	</body>
 	</html>
-	<html>
-	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hebergement par dossier</title>
-	</head>
-	<body>
-	<h2>Bonjour les amis,on a reussi notre hebergement par dossier sous Apache</h2>
-	</body>
-	</html>
+	
 	
 
 
