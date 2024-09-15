@@ -87,7 +87,7 @@ Une fois le serveur Apache2 installe,on doit connaitre ses  fichiers  importants
 
 # Hebergement d'un site web par dossier  sous Apache2
 
-  L'hebergement d'un site par dossier  est tres important.Nous devons savoir qu'une fois le serveur en place il a son site par defaut dans le document root avec un fichier index.html qui se lance au demarrage.Ainsi quand on prend un naviateur par defaut Firefox sous Ubuntu on tape **localhost** directement la page suivant apparait.
+  L'hebergement d'un site par dossier  est tres important.Nous devons savoir qu'une fois le serveur en place il a son site par defaut dans le document root avec un fichier index.html qui se lance au demarrage.Ainsi quand on prend un naviateur par defaut Firefox sous Ubuntu on tape **localhost** directement la page suivante apparait.
 
 ![update](./images/lo_apach2.png)
 Figure: Site  d'Apache2 par defaut
@@ -165,7 +165,7 @@ Figure: Creation du fichir index.html
 	On ajoute le contenu suivant:
 
 	```
-	<!DOCTYPE html>
+	
 <html>
 <head>
 	<meta charset="utf-8">
@@ -309,7 +309,7 @@ nano /var/www/html/dossier_site1/index.html
 Et on met le contenu suivant:
 
 ```
-<!DOCTYPE html>
+
 <html>
 <head>
 <meta charset="utf-8">
