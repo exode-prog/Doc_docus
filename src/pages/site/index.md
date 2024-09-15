@@ -62,9 +62,9 @@ Figure: Verification du serveur Apache2
 
 Le serveur Apache2 utilise le port 80,verifions si le port 80 est ouvert avec la commande suivante: 
 
-	```
+	
 	netstat -anp |grep -w 80 
-	```
+	
 
 ![update](./images/port_apach2.png)
 Figure: Verification du port Apache2
@@ -101,9 +101,9 @@ Figure: Site  d'Apache2 par defaut
 **Etape 1:**  Se positionner dans le document root** 
 
 Pour cela on doit se  deplacer dans le document root **/var/www/html**  
-	```
+	
 	cd /var/wwww/html
-	```
+	
 
 
 ![update](./images/root_apach2.png)
@@ -116,10 +116,10 @@ Figure: Document root d'Apache
 
 On cree le dossier avec la commande suivante 
 
-	```
+	
 	mkdir dossier_site1
 	
-	```
+	
 
 
 ![update](./images/creation_dossier.png)
@@ -130,10 +130,10 @@ Figure: Creation du dossier
 On se  deplace dans le dossier dossier_site1
 
 
-	```
+	
 	cd dossier_site1
 	
-	```
+	
 
 ![update](./images/dep_dossier.png)
 Figure: Deplacement dans le dossier
@@ -149,10 +149,10 @@ On cree alors un fichier index.html  et on ajoute du contenu comme sur les figur
 
 
 
-	```
+	
 	touch index.html
 	nano index.html
-	```
+	
 
 
 ![update](./images/index.png)
@@ -164,8 +164,17 @@ Figure: Creation du fichir index.html
 
 	On ajoute le contenu suivant:
 
-	```
-	<!DOCTYPE html>
+	
+ <html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hebergement par dossier</title>
+	</head>
+	<body>
+	<h2>Bonjour les amis,on a reussi notre hebergement par dossier sous Apache</h2>
+	</body>
+</html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -216,10 +225,10 @@ Pour creer le site virtuel on se deplace dans /etp/apache2/sites-available et on
 
 
 
-	```
+	
 	cd /etc/apache2/sites-available
 	touch site1.conf
-	```
+	
 
 
 ![update](./images/site_av.png)
@@ -227,7 +236,7 @@ Figure: Creation du fichier de configuration de notre site virtuel
 
 
 On edite le fichier site1.conf et on met les parametres essentiels pour notre site 
-```
+
 <VirtualHost *:80>
     ServerName site-docus.sn
     DocumentRoot /var/www/html/dossier_site1
@@ -235,7 +244,7 @@ On edite le fichier site1.conf et on met les parametres essentiels pour notre si
 
 </VirtualHost>
 
-```
+
 Figure: Configuration de notre sitre par nom
 
 
