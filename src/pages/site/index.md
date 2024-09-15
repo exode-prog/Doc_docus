@@ -25,10 +25,9 @@ Pour installer Apache2 sous Ubuntu il faut suivre les etapes suivantes:
 
 **Etape 1:**  Mettre a jour les paquets du systeme 
 
-	Apres avoir executer la commande **sudo -s** pour se connecter en tantque Root superutilisateur,avant toute autre  operation on doit mettre  a jour les paquets pour une bonne marche.
+Apres avoir executer la commande **sudo -s** pour se connecter en tantque Root superutilisateur,avant toute autre  operation on doit mettre  a jour les paquets pour une bonne marche.
 
 	```
-
 	apt update
 	```
 ![update](./images/capture_update.png)
