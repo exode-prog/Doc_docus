@@ -222,7 +222,7 @@ Pour creer le site virtuel on se deplace dans /etp/apache2/sites-available et on
 	```
 
 
-![update](./images/site_av.png)
+![update](./images/site_av.png) 
 Figure: Creation du fichier de configuration de notre site virtuel
 
 
