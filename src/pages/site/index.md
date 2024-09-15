@@ -25,12 +25,12 @@ Pour installer Apache2 sous Ubuntu il faut suivre les etapes suivantes:
 
 **Etape 1:**  Mettre a jour les paquets du systeme 
 
-	Apres avoir executer la commande **sudo -s** pour se connecter en tantque Root superutilisateur,avant toute autre  operation on doit mettre  a jour les paquets pour une bonne marche.
+Apres avoir executer la commande **sudo -s** pour se connecter en tantque Root superutilisateur,avant toute autre  operation on doit mettre  a jour les paquets pour une bonne marche.
 
-	```
+	
 
 	apt update
-	```
+	
 ![update](./images/capture_update.png)
 Figure: Mise a jour des paquets du systeme
 	
@@ -87,7 +87,7 @@ Une fois le serveur Apache2 installe,on doit connaitre ses  fichiers  importants
 
 # Hebergement d'un site web par dossier  sous Apache2
 
-  L'hebergement d'un site par dossier  est tres important.Nous devons savoir qu'une fois le serveur en place il a son site par defaut dans le document root avec un fichier index.html qui se lance au demarrage.Ainsi quand on prend un naviateur par defaut Firefox sous Ubuntu on tape **localhost** directement la page suivant apparait.
+  L'hebergement d'un site par dossier  est tres important.Nous devons savoir qu'une fois le serveur en place il a son site par defaut dans le document root avec un fichier index.html qui se lance au demarrage.Ainsi quand on prend un naviateur par defaut Firefox sous Ubuntu on tape **localhost** directement la page suivante apparait.
 
 ![update](./images/lo_apach2.png)
 Figure: Site  d'Apache2 par defaut
