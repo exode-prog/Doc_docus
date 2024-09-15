@@ -8,8 +8,16 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  /*title: 'My Site',
   tagline: 'Dinosaurs are cool',
+  favicon: 'img/favicon.ico',*/
+
+  title: 'Projet sur Docusaurus',
+  tagline: 'Apprentissage de Docusaurus',
+  url: 'http://root.exode.sn',
+  baseUrl: '/Doc_docus/',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
