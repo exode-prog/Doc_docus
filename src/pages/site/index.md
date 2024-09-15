@@ -162,9 +162,9 @@ Figure: Creation du fichir index.html
 
 
 
-	On ajoute le contenu suivant:
+On ajoute le contenu suivant:
 
-	```
+```
 	
 <html>
 <head>
