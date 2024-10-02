@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://exode-prog.github.io/Doc_docus/blog</id>
-    <title>Mon espace de travail Blog</title>
+    <title>EXODE-PROG Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://exode-prog.github.io/Doc_docus/blog"/>
-    <subtitle>Mon espace de travail Blog</subtitle>
+    <subtitle>EXODE-PROG Blog</subtitle>
     <icon>https://exode-prog.github.io/Doc_docus/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
