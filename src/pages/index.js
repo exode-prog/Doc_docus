@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            "Arreter d'apprendre c'est renoncer  à la vie. Une attention de  5min ⏱️ à ce tutoriel peut apporter un grand changement"
+            "Arreter d'apprendre signifie renoncer  à la vie. Une attention de  5min ⏱️ à ce tutoriel peut apporter un grand changement"
           </Link>
         </div>
       </div>
