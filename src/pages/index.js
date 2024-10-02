@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            "Arreter d'apprendre c'est renoncer  à la vie. Une attention de  5min ⏱️ à ce tutoriel peut apporter un grand changement"
           </Link>
         </div>
       </div>

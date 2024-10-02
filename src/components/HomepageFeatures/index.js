@@ -4,32 +4,37 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Dans un monde de reseau',
+    Svg: require('@site/static/img/reseaux.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        
+        Le reseau informatique incontournable. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Dans le monde de DEVOPS ',
+    Svg: require('@site/static/img/dev.svg').default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      <>Developper des competences avancees dans le devops en metrisant les micro-services.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'La cybersecurite ',
+    Svg: require('@site/static/img/cyb.svg').default,
+    description: (
+      <>Elle est cruciale, tout doit etre sécurisé.
+      </>
+    ),
+  },
+  {
+    title: 'Etre dans le monde du Web',
+    Svg: require('@site/static/img/web.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Le service important pour la communication numerique.
       </>
     ),
   },

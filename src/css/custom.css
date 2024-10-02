@@ -2,10 +2,11 @@
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
- */
+
 
 /* You can override the default Infima variables here. */
 :root {
+   
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -28,3 +29,28 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+/*Ci bas c'est des couleurs que j ai ajoute pour la mise en forme*/
+/* Couleur de fond par défaut pour les blocs de code */
+ .theme-code-block {
+    background-color: #f0f0f0; /* Couleur par défaut */
+    padding: 10px; /* Ajoute un peu d'espace autour du code */
+    border-radius: 5px; /* Arrondit les coins */
+}
+
+/* Couleur de fond lors du survol */
+.theme-code-block:hover {
+    background-color: #e0e0e0; /* Couleur au survol */
+}
+
+/* Couleur de fond lors de la sélection (copie) */
+.theme-code-block::selection {
+    background-color: #c0c0c0; /* Couleur lors de la sélection */
+    color: #000000; /* Couleur du texte lors de la sélection */
+}
+
+/*.half-width {
+  width: 50%;
+  height: auto; */ /* Maintenir le ratio d'aspect 
+}*/
